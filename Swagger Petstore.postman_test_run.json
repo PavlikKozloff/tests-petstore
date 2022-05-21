@@ -1,0 +1,332 @@
+{
+	"id": "e23886b2-1225-4a80-8f1a-768040a50607",
+	"name": "Swagger Petstore",
+	"timestamp": "2022-05-20T19:22:12.755Z",
+	"collection_id": "19665950-0d7400f0-f77b-4e5e-9c96-8d811407af5f",
+	"folder_id": "19665950-ce88e442-d11f-4b3d-beb4-a13cdfb35314",
+	"environment_id": "0",
+	"totalPass": 19,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fc70d908-a0be-42ee-97a2-435a42736b89",
+			"name": "Get user by user name",
+			"url": "https://petstore.swagger.io/v2/user/Pahan",
+			"time": 539,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Verify 'username' object type to be 'string'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify 'username' object type to be 'string'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				539
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Verify 'username' object type to be 'string'": true
+				}
+			]
+		},
+		{
+			"id": "a7d78b99-c31e-4834-a2c1-8638caef688d",
+			"name": "Updated user",
+			"url": "https://petstore.swagger.io/v2/user/Pahan",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "1fec0f62-7c4b-4606-a39f-38e65ad3c581",
+			"name": "Delete user",
+			"url": "https://petstore.swagger.io/v2/user/Pahan",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "004bc41f-f484-4a22-ad75-b8d5686c764d",
+			"name": "Create user",
+			"url": "https://petstore.swagger.io/v2/user?username=Pahan&password=123456",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Date is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Date is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Date is present": true
+				}
+			]
+		},
+		{
+			"id": "40c1974e-fff4-4131-afa9-e43228012f59",
+			"name": "Creates list of users with given input array",
+			"url": "https://petstore.swagger.io/v2/user/createWithArray",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "d85d1b38-0a3f-4cb2-88a6-8cdddefa132d",
+			"name": "Creates list of users with given input array",
+			"url": "https://petstore.swagger.io/v2/user/createWithList",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "fde8cba9-fd6b-427b-80bb-e7fc49dade56",
+			"name": "Logs user into the system",
+			"url": "https://petstore.swagger.io/v2/user/login?username=Pahan&password=123456",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Verify 'message' object type to be 'string'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify 'message' object type to be 'string'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Verify 'message' object type to be 'string'": true
+				}
+			]
+		},
+		{
+			"id": "3760e987-2d21-4fcd-89f7-65bd684f68e0",
+			"name": "Logs out current logged in user session",
+			"url": "https://petstore.swagger.io/v2/user/logout",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1466,
+	"collection": {
+		"requests": [
+			{
+				"id": "fc70d908-a0be-42ee-97a2-435a42736b89",
+				"method": "GET"
+			},
+			{
+				"id": "a7d78b99-c31e-4834-a2c1-8638caef688d",
+				"method": "PUT"
+			},
+			{
+				"id": "1fec0f62-7c4b-4606-a39f-38e65ad3c581",
+				"method": "DELETE"
+			},
+			{
+				"id": "004bc41f-f484-4a22-ad75-b8d5686c764d",
+				"method": "POST"
+			},
+			{
+				"id": "40c1974e-fff4-4131-afa9-e43228012f59",
+				"method": "POST"
+			},
+			{
+				"id": "d85d1b38-0a3f-4cb2-88a6-8cdddefa132d",
+				"method": "POST"
+			},
+			{
+				"id": "fde8cba9-fd6b-427b-80bb-e7fc49dade56",
+				"method": "GET"
+			},
+			{
+				"id": "3760e987-2d21-4fcd-89f7-65bd684f68e0",
+				"method": "GET"
+			}
+		]
+	}
+}
